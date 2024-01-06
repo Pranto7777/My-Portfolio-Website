@@ -6,6 +6,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 226px;
+    margin-right: 230px;
 }
 
 nav > ul {
@@ -43,4 +45,45 @@ nav a {
     font-style: normal;
     font-weight: 700;
     color: white;
+}
+
+header {
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-download-cv {
+    width: 200px;
+    height: 64px;;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    margin-right: 30px;
+    
+}
+
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white
+}
+.profile-img {
+    width: 500px;
 }
